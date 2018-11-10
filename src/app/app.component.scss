@@ -1,0 +1,6 @@
+@import "~bourbon/core/bourbon";
+
+.container {
+  border: solid 5px;
+  @include border-color(#f00 #00f #0f0 null);
+}
